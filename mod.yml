@@ -1,0 +1,17 @@
+title: Remove Timer from OC Pete Fight
+description: Removes the timer from OC Pete in the Lock. Made for use with Boss/Enemy rando.
+assets:
+- name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  multi:
+  - name: remastered/msn/fr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/gr/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/it/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/sp/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/HE08_MS107.bar/US_HE08_MS107_bar0.png
+- name: scripts/OCPeteNoTimer.lua
+  method: copy
+  source:
+  - name: scripts/OCPete.lua
