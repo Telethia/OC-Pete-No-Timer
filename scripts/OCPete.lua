@@ -3,7 +3,7 @@ local offset = 0x56450E
 function _OnInit()
 	if GAME_ID == 0x431219CC and ENGINE_TYPE == "BACKEND" then
 		canExecute = true
-		ConsolePrint("KH2 detected, running script")
+		ConsolePrint("No Timer script loaded!")
 		if ReadInt(0x2A5A056-offset) > 0 and ReadInt(0x2A59056-offset) == 0 then
 			offset = 0x56550E
 			offset2 = 0x56554E
